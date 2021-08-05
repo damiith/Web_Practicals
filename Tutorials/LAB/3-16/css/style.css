@@ -1,0 +1,111 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#header{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, rgb(96, 51, 179) , rgb(87, 199, 255));
+}
+
+.innertext{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 0px;
+}
+
+.innertext:hover{
+    font-size: 60px;
+}
+
+
+#container{
+    width: 100%;
+    height: 510px;
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+
+}
+
+.sub{
+    width: 19%;
+    height: 490px;
+    border: 2px solid black;
+    margin: 7px 8px;
+    
+}
+
+.sub:hover{
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    filter: grayscale(100%);
+}
+
+.inner{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+
+}
+
+p.text{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#bg1{
+    background-image: url("../img/tiger.jpeg");
+    background-size: cover;
+}
+
+#bg2{
+    background-image: url("../img/surf.jfif");
+    background-size: cover;
+}
+
+#bg3{
+    background-image: url("../img/monk.jfif");
+    background-size: cover;
+}
+
+#bg4{
+    background-image: url("../img/herbal.jfif");
+    background-size: cover;
+}
+
+#bg5{
+    background-image: url("../img/fest.jpg");
+    background-size: cover;
+}
+
+.footer{
+    background-image: url("../img/footer.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.ftext{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}

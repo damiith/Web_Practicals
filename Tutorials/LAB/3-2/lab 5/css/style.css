@@ -1,0 +1,127 @@
+li{ float: left;    
+}
+
+ul{ 
+    list-style: none;
+    background-color: rgb(41, 8, 255);
+    overflow: hidden ;
+    margin: 0%;
+    padding-left: 0%;
+}
+
+
+.reg{
+    float: right;
+}
+
+li a{text-decoration: none;
+    padding: 15px 20px;
+    color: aliceblue;
+    display: block;
+}
+
+
+.active{
+    background-color: #44e9ff;
+    
+}
+
+.active a{ color: black; }
+
+.image{ background-image: url("../img/bnr.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin: 0%; }
+
+.covercontent { text-align: center;
+            font-size: 30px;
+            color: rgb(0, 0, 0);
+            
+}
+
+.btn{ width: 10%;
+    height: 50px;
+    background-color :rgb(79, 113, 224) ;
+    font-size: 20px;
+    color: azure;
+    font-weight: bolder;
+    border: 1px solid rgb(5, 57, 124);
+
+}
+
+h2{text-align: center;}
+
+.row{ width: 100%;
+      height: 50px;
+      text-align: center;
+
+}
+
+.col{
+    width: 50%;
+    height: 50px;
+    float: left;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.col1{
+    width: 25%;
+    height: 50px;
+    float: left;
+    color: white;
+    font-size: 18px;
+    
+}
+
+
+.col2{
+    width: 20%;
+    height: 50px;
+    float: left;
+    color: rgb(0, 47, 255);
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.table{
+    text-align: center;
+    border: 1px solid green;
+}
+
+.table td{
+    border: 1px solid rgb(235, 64, 226);
+    padding: 10px 25px;
+}
+
+.table th{
+    padding: 15px 15px;
+}
+
+.footer{text-align: center;
+    color: rgb(93, 240, 88);
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.ftbtn{ float: right;
+    background-color: rgb(39, 124, 194);
+    width: 3%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+.ftbtn a{
+    text-decoration: none;
+    color: rgb(97, 40, 151);
+    font-weight: bolder;
+}

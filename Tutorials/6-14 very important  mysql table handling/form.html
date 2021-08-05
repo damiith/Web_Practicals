@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="dbinsert.php" method="POST" enctype="multipart/form-data">
+        User Id <input type="text" name="uid"> <br>
+        Name <input type="text" name="fname"> <br>
+        Password <input type="password" name="pass"> <br>
+        <button type="submit">Submit</button>
+    </form>
+<br> <br>
+**************************Viewing the database**************************** 
+    <form action="retrieve.php" method="POST">
+
+        <button type="submit" name="retrieve" value="view database">retrieve</button>
+
+    </form>
+************************************************************************** <br><br>
+
+
+****************************Deleting a record************************
+<form action="delete.php" method="POST">
+    <input type="text" name="uid">
+    <button type="submit" name="delete" value="delete">Delete</button>
+
+</form>
+**********************************************************************
+
+<br> <br>
+<form action="update.php" enctype="multipart/form-data" method="POST">
+
+Select user Id <input type="text" name="uid"> <br> <br>
+Update the following fields <br>
+New Name <input type="text" name="nname"> <br>
+New Password <input type="password" name="npass"> <br>
+
+<button type="submit" name="update">Update the record</button>
+
+
+</form>
+
+
+
+
+</body>
+</html>
