@@ -1,0 +1,21 @@
+h1{ text-align: center;
+	color: purple;
+	font-size: 50px;
+	margin-top: 0px;
+}
+
+.color{ color: blue;
+	    font-weight: bold;
+	    font-size: 22px;
+
+}
+
+#reg{ font-size: 30px;
+
+}
+
+h1{color: red;
+   font-size: 45px;
+}
+
+table,tr ,td{border: 1px solid gray;}

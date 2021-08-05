@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<!--Q2
+<p id="maths"></p>
+<p id="cl"></p>
+<p id="java"></p>
+<p id="html"></p>
+<p id="css"></p>
+<hr>
+<p id="sum"></p>
+<p id="avg"></p>
+<br>
+<br>
+<button type="button" onclick="grade()">Grade</button>
+
+<script>
+    let m = parseInt(prompt("Enter Maths Marks ?"));
+    let c = parseInt(prompt("Enter C Language Marks ?"));
+    let j = parseInt(prompt("Enter Java Marks ?"));
+    let h = parseInt(prompt("Enter HTML Marks ?"));
+    let cs = parseInt(prompt("Enter CSS Marks ?"));
+
+
+    document.getElementById("maths").innerHTML="Mathematis :" +m;
+    document.getElementById("cl").innerHTML="C Language :" +c;
+    document.getElementById("java").innerHTML="Java :" +j;
+    document.getElementById("html").innerHTML="HTML :" +h;
+    document.getElementById("css").innerHTML="CSS :" +cs;
+
+    let s = (m+c+j+h+cs);
+    let a = (s/5);
+
+    document.getElementById("sum").innerHTML="SUM :" +s;
+    document.getElementById("avg").innerHTML="Avarage :" +a;
+
+    function grade(){
+        if(a>30){
+            alert("Congrats ! You are passed ..");
+        }
+
+        else{
+            alert("Better Luck next time ..");
+        }
+    }
+
+</script>
+-->
+
+
+<!--Q3
+<style>
+    .size{
+        padding: 10px;
+    }
+
+</style>
+
+<button class="size" type="button" onmouseover="r(this)" onmouseout="d(this)">Red</button>
+<button class="size" type="button" onmouseover="g(this)" onmouseout="d(this)">Green</button>
+<button class="size" type="button" onmouseover="b(this)" onmouseout="d(this)">Blue</button>
+
+
+<script>
+    function r(color){
+        color.style.backgroundColor = "red";
+    }
+    function g(color){
+        color.style.backgroundColor = "green";
+    }
+    function b(color){
+        color.style.backgroundColor = "blue";
+    }
+    function d(color){
+        color.style.backgroundColor = "white";
+    }
+  
+</script>
+ -->
+
+ <!--Q4
+<script>
+    let num =prompt("Enter your number for find day ?");
+
+    switch(num){
+        case '1' : alert("monday");break;
+        case '2' : alert("teusday");break;
+        case '3' : alert("wednesday");break;
+        case '4' : alert("Thursday");break;
+        case '5' : alert("Friday");break;
+        case '6' : alert("Saturday");break;
+        case '7' : alert("Sunday");break;
+
+        default : alert("Invalid number");
+
+    }
+
+</script>
+-->
+
+ <!--Q5
+
+ <style>
+     .btn{
+         padding: 15px 40px;
+     }
+ </style>
+
+<button class="btn" type="button" onclick="link()" >Google</button>
+
+<script>
+    function link(){
+        let isGoogle = confirm("Are you sure want to visit the Google ?");
+
+        if(isGoogle){
+            window.open("http://google.lk/");
+        }
+
+        else{
+            alert("You decided to stay!");
+        }
+    }
+</script>
+ -->
+
+ <!--Q6
+ <p id="n1"></p>
+ <p id="n2"></p>
+ <hr>
+ <p id="add"></p>
+ <p id="substraction"></p>
+ <p id="devition"></p>
+ <p id="multiplication"></p>
+
+<script>
+
+    let no1= parseInt(prompt("Enter your first number ?"));
+    let no2= parseInt(prompt("Enter your Second number ?"));
+    
+    let sum = (no1+no2);
+    let sub = (no1-no2);
+    let devi = (no1/no2);
+    let multi = (no1*no2);
+    
+    document.getElementById("n1").innerHTML="Number one :" +no1;
+    document.getElementById("n2").innerHTML="Number two :" +no2;
+    document.getElementById("add").innerHTML="Addition :" +sum;
+    document.getElementById("substraction").innerHTML="Subtraction :" +sub;
+    document.getElementById("devition").innerHTML="Division :" +devi;
+    document.getElementById("multiplication").innerHTML="Multiplication :" +multi;
+
+</script>
+
+ -->
+ 
+
+
+
+
+</body>
+</html>
